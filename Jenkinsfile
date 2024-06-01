@@ -54,6 +54,7 @@ pipeline {
             }
         }
 
+
         stage('CODE ANALYSIS with SONARQUBE') {
           
 		  environment {
